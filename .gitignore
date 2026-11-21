@@ -1,0 +1,20 @@
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# data (25 GB) and local outputs
+finevideo/
+out/
+testdata/
+eda_cache/
+*.jsonl
+!results.jsonl.gz
+
+# model files (downloaded / built by prepare.py)
+*.pt
+*.engine
+*.onnx
+yolo11l.json
+calib/calib.yaml
