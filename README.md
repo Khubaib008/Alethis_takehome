@@ -90,5 +90,7 @@ Useful options (all optional): `--workers`, `--gpu-instances`, `--batch`, `--wei
 | `reference.py`, `evaluate.py` | ground truth and scoring |
 | `make_broken_data.py`, `make_calibration.py` | test data and INT8 calibration frames |
 | `calib/images/` | 450 INT8 calibration frames from the 50 FineVideo files |
-| `eda.ipynb` | dataset exploration |
-| `colab_test.ipynb` | GPU test sequence used on Colab |
+| `results.jsonl.gz` | output of the 50-file run |
+| `HARDWARE.md` | machine used for that run |
+| `WRITEUP.md` | write-up |
+| `ai_chats/` | AI assistant chat log |
