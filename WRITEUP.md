@@ -1,7 +1,7 @@
 # Write-up
 ## 1. Your timings (100 words)
 How long did your first working version take on the full 50 files, and how long did your final version take? Which single change saved the most time?
-The initial version was giving 30 fps on same hardware (on colab). However, by using the final optimized version gave approximately 185 fps. This was mainly achieved as we batched INT8 Tensor RT and also parallelize things, meaning, having multiple instaces running in parallel. 
+The initial version was giving 30 fps (an estimate because i was unable to run fully) on same hardware (on colab). However, by using the final optimized version gave approximately 185 fps. This was mainly achieved as we batched INT8 Tensor RT and also parallelize things, meaning, having multiple instaces running in parallel. 
 
 
 ## 2. Your pipeline (150 words)
